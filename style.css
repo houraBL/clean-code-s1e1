@@ -126,7 +126,7 @@ button {
   align-items: center;
 }
 
-.view-mode {
+.view-mode > * {
   vertical-align: middle;
 }
 
@@ -134,7 +134,7 @@ button {
   margin: 0 10px;
 }
 
-.view-mode .task-label {
+.view-mode > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
